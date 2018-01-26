@@ -1,8 +1,8 @@
 <?php require 'logout.php'; ?>
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE>
+<html>
 <head>
 <title>Chat - Customer Module</title>
 <link type="text/css" rel="stylesheet" href="style.css" />
@@ -42,7 +42,7 @@ if(file_exists("log.html") && filesize("log.html") > 0){
         <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
     </form>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
 // jQuery Document
 $(document).ready(function(){
@@ -79,7 +79,7 @@ $(document).ready(function(){
             },
         });
     }
-      setInterval (loadLog, 15000);   //Reload file every 15000 ms or
+      setInterval (loadLog, 5000);   //Reload file every 15000 ms or
       </script>
       <script type="text/javascript">
       //Auto-scroll            
