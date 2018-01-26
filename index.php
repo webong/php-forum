@@ -79,7 +79,7 @@ $(document).ready(function(){
             },
         });
     }
-      setInterval (loadLog, 5000);   //Reload file every 15000 ms or
+      setInterval (loadLog, 500);   //Reload file every 15000 ms or
       </script>
       <script type="text/javascript">
       //Auto-scroll            
