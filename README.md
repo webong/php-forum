@@ -1,3 +1,3 @@
-# chat-package
+# php-forum
 
  https://chatpac.herokuapp.com
